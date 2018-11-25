@@ -6,9 +6,9 @@
 This project consists of a Node Express Backend with a MongoDB database and a React Native Mobile Client hosted on Expo. 
 
 ## Deployed Project Info
-Backend (w. API): 
+Backend (w. API): Jeg kan seriøst ikke få det til at fungere. 
 
-Mobile Client: 
+Mobile Client: https://expo.io/@hideyourwaifu/MiniProjectNAtive
 
 ## Progression
 Jeg mener at det grundlæggende opgaver er fuldført. Med undtagelse af at den sidste del ikke rigtigt fungerer.
