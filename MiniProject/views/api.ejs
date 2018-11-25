@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <a href="/api/">/</a>
+  <br>
+  <p><b>USER</b></p>
+  <p>GET</p>
+  <a href="/api/getallusers/">/getallusers/</a>
+  <br>
+  <a href="/api/findbyid/">/findbyid/</a><text> ex.: /5bdd93d823fe6225a4a537c6</text>
+  <br>
+  <a href="/api/findbyusername/">/findbyusername/</a><text> ex.: /Anderson</text>
+  <br>
+  <p>POST</p>
+  <a href="/api/adduser/">/adduser/</a><text> POSTMAN: { "firstName":"Anders", "lastName":"Christiansen", "userName":"Anderson", "password":"herlev", "email":"bub@bub.dk" }</text>
+  
+  <p><b>BLOG</b></p>
+  <p>GET</p>
+  <a href="/api/locationblogs/">/locationblogs/</a>
+  <br>
+  <p>POST</p>
+  <a href="/api/addlocationblog/">/addlocationblog/</a><text> POSTMAN: { "info":"testPlace", "pos.longtitude":"24", "pos.latitude":"17", "author":"5bdd93d823fe6225a4a537c6"}</text>
+  <br>
+  <a href="/api/likelocationblog/">/likelocationblog/</a><text> POSTMAN: { "blog_id":"5bcc7284a5aebd46c87e2931", "user_id":"5bdd93d823fe6225a4a537c6"}</text>
+  <br>
+  <a href="/api/login/">/login/</a> <text> POSTMAN: {"userName":"Anderson", "password":"herlev", "latitude":3, "longitude":5,"distance" :3}</text>
+
+
+</body>
+
+</html>
